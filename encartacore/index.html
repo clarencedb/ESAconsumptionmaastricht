@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Consuming (In)Equality · ESA RN05 Midterm Conference 2027</title>
+  <meta name="robots" content="noindex">
+  <meta name="description" content="ESA RN05 Sociology of Consumption Midterm Conference 2027, Maastricht University, 18–21 October 2027. Consuming (In)Equality: Moralities, Infrastructures and the Politics of Provisioning.">
+  <meta property="og:title" content="Consuming (In)Equality · ESA RN05 Midterm Conference 2027">
+  <meta property="og:description" content="Maastricht University, 18–21 October 2027. Call for papers open until 26 March 2027.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Marcellus&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- Shared graphics: gradients, cloud filter, symbols -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <filter id="clouds" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.0045 0.011" numOctaves="5" seed="7"/>
+      <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  2.1 0 0 0 -0.92"/>
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+    <filter id="clouds2" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.006 0.016" numOctaves="5" seed="23"/>
+      <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  2.2 0 0 0 -1.0"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#0a1e5a" flood-opacity=".35"/></filter>
+
+    <linearGradient id="g-gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff4c2"/><stop offset=".38" stop-color="#e2b247"/><stop offset=".52" stop-color="#c08a26"/>
+      <stop offset=".6" stop-color="#7a4f10"/><stop offset=".8" stop-color="#e2b247"/><stop offset="1" stop-color="#fff4c2"/>
+    </linearGradient>
+    <linearGradient id="g-gold-h" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7a4f10"/><stop offset=".25" stop-color="#e2b247"/><stop offset=".45" stop-color="#fff4c2"/>
+      <stop offset=".65" stop-color="#c08a26"/><stop offset="1" stop-color="#7a4f10"/>
+    </linearGradient>
+    <radialGradient id="g-coin" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#fff8d0"/><stop offset=".5" stop-color="#e2b247"/><stop offset="1" stop-color="#7a4f10"/></radialGradient>
+    <linearGradient id="g-marble" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b9b3a6"/><stop offset=".3" stop-color="#ffffff"/><stop offset=".6" stop-color="#ece8df"/><stop offset="1" stop-color="#a39d90"/>
+    </linearGradient>
+    <linearGradient id="g-marble-v" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#c9c3b6"/></linearGradient>
+    <radialGradient id="g-ocean" cx=".38" cy=".32" r=".75"><stop offset="0" stop-color="#9fd3ff"/><stop offset=".55" stop-color="#2a6fd0"/><stop offset="1" stop-color="#0b2a6e"/></radialGradient>
+    <linearGradient id="g-land" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b9e07a"/><stop offset=".6" stop-color="#4f9a3a"/><stop offset="1" stop-color="#2d6a2a"/></linearGradient>
+    <radialGradient id="g-shine" cx=".32" cy=".26" r=".45"><stop offset="0" stop-color="#fff" stop-opacity=".85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="g-opening" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe9b0"/><stop offset=".45" stop-color="#cfe6ff"/><stop offset="1" stop-color="#7fb2ee"/></linearGradient>
+    <radialGradient id="g-apple" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#ff8a7a"/><stop offset=".5" stop-color="#d0201f"/><stop offset="1" stop-color="#6e0c10"/></radialGradient>
+    <radialGradient id="g-bulb" cx=".4" cy=".35" r=".7"><stop offset="0" stop-color="#ffffff"/><stop offset=".5" stop-color="#fff3a8"/><stop offset="1" stop-color="#f0b429"/></radialGradient>
+    <linearGradient id="g-bread" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f2c27a"/><stop offset=".55" stop-color="#c47a2c"/><stop offset="1" stop-color="#7a4413"/></linearGradient>
+    <radialGradient id="g-planet" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#ffe0b0"/><stop offset=".55" stop-color="#d98a4a"/><stop offset="1" stop-color="#6a2d6e"/></radialGradient>
+    <linearGradient id="g-roof" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e2584a"/><stop offset="1" stop-color="#8a1f1a"/></linearGradient>
+    <linearGradient id="g-blue" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6f9df0"/><stop offset=".5" stop-color="#2d5fc4"/><stop offset="1" stop-color="#1a3f96"/></linearGradient>
+    <linearGradient id="g-hill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fd86a"/><stop offset="1" stop-color="#2f7a32"/></linearGradient>
+
+    <symbol id="ribbon" viewBox="0 0 360 26">
+      <path d="M0,4 L28,4 L22,13 L28,22 L0,22 Z M332,4 L360,4 L360,22 L332,22 L338,13 Z" fill="#7a4f10"/>
+      <path d="M22,1 L338,1 L338,25 L22,25 Z" fill="url(#g-gold)" stroke="#7a4f10" stroke-width="1"/>
+      <path d="M180,6 l4,7 -4,7 -4,-7 z" fill="#10204f"/>
+      <path d="M60,13 H160 M200,13 H300" stroke="#7a4f10" stroke-width="1"/>
+    </symbol>
+
+    <symbol id="cloudlayer" viewBox="0 0 100 100" preserveAspectRatio="none"></symbol>
+
+    <symbol id="bust" viewBox="0 0 150 170">
+      <rect x="35" y="140" width="80" height="26" rx="2" fill="url(#g-marble)" stroke="#8d877a"/>
+      <rect x="28" y="132" width="94" height="10" rx="2" fill="url(#g-marble)" stroke="#8d877a"/>
+      <path d="M22,132 C26,104 50,96 75,96 C100,96 124,104 128,132 Z" fill="url(#g-marble)" stroke="#8d877a"/>
+      <path d="M62,98 L62,82 L88,82 L88,98 Z" fill="url(#g-marble)"/>
+      <ellipse cx="75" cy="56" rx="27" ry="33" fill="url(#g-marble)" stroke="#8d877a"/>
+      <ellipse cx="66" cy="50" rx="10" ry="14" fill="#ffffff" opacity=".55"/>
+      <g fill="url(#g-gold)" stroke="#7a4f10" stroke-width=".6">
+        <ellipse cx="51" cy="44" rx="4" ry="8" transform="rotate(-40 51 44)"/><ellipse cx="56" cy="34" rx="4" ry="8" transform="rotate(-60 56 34)"/>
+        <ellipse cx="64" cy="27" rx="4" ry="8" transform="rotate(-75 64 27)"/><ellipse cx="99" cy="44" rx="4" ry="8" transform="rotate(40 99 44)"/>
+        <ellipse cx="94" cy="34" rx="4" ry="8" transform="rotate(60 94 34)"/><ellipse cx="86" cy="27" rx="4" ry="8" transform="rotate(75 86 27)"/>
+      </g>
+      <path d="M40,124 C60,112 90,112 110,124" fill="none" stroke="#a39d90" stroke-width="1.2"/>
+    </symbol>
+  </defs>
+</svg>
+
+<header class="nav">
+  <div class="nav__inner">
+    <a class="nav__brand" href="#top" aria-label="Home">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="17" fill="url(#g-ocean)" stroke="url(#g-gold)" stroke-width="3"/><path d="M11,14 c4,-3 9,-2 10,2 c1,4 -3,5 -2,9 c-4,1 -8,-3 -8,-11z M24,24 c3,-2 6,0 6,3 c-2,3 -5,3 -6,-3z" fill="url(#g-land)"/><circle cx="20" cy="20" r="17" fill="url(#g-shine)"/></svg>
+      <span class="gold">ESA RN05 · 2027</span>
+    </a>
+    <button class="nav__toggle" aria-expanded="false" aria-controls="nav-links">Contents ▾</button>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#call">Call for Papers</a></li>
+      <li><a href="#dates">Timeline</a></li>
+      <li><a href="#programme">Programme</a></li>
+      <li><a href="#registration">Fees</a></li>
+      <li><a href="#venue">Venue</a></li>
+      <li><a href="#organisers">Organisers</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ===== Hero ===== -->
+<section class="sky" id="top">
+  <svg class="sky__clouds" preserveAspectRatio="none" aria-hidden="true"><rect width="100%" height="100%" filter="url(#clouds)"/></svg>
+  <div class="hero">
+    <div class="hero__grid">
+      <div>
+        <p class="hero__kicker">European Sociological Association · RN05 Sociology of Consumption</p>
+        <h1 class="hero__title gold"><small>Midterm Conference 2027</small>Consuming (In)Equality</h1>
+        <p class="hero__subtitle">Moralities, Infrastructures and the Politics of Provisioning</p>
+        <ul class="hero__plaques">
+          <li class="plaque"><b>When</b><span>18–21 October 2027</span></li>
+          <li class="plaque"><b>Where</b><span>Maastricht University</span></li>
+          <li class="plaque"><b>Abstracts by</b><span>26 March 2027</span></li>
+        </ul>
+        <div class="hero__actions">
+          <a class="btn" href="#call">Explore the Call ▸</a>
+          <a class="btn btn--blue" href="#dates">Key Dates</a>
+        </div>
+      </div>
+
+      <svg class="collage" viewBox="0 0 600 560" role="img" aria-label="A classical arch framing a desk globe, wrapped in a gold ribbon, with floating everyday goods: an apple, a loaf, a house, a light bulb, a coin and a planet">
+        <!-- glow behind -->
+        <circle cx="300" cy="260" r="200" fill="#fff6d0" opacity=".55" filter="url(#glow)"/>
+        <!-- arch opening -->
+        <path d="M180,492 L180,250 A120,120 0 0 1 420,250 L420,492 Z" fill="url(#g-opening)"/>
+        <g opacity=".7" stroke="#ffffff" stroke-width="2">
+          <line x1="300" y1="300" x2="300" y2="140"/><line x1="300" y1="300" x2="220" y2="170"/><line x1="300" y1="300" x2="380" y2="170"/>
+          <line x1="300" y1="300" x2="190" y2="230"/><line x1="300" y1="300" x2="410" y2="230"/>
+        </g>
+        <!-- columns -->
+        <g>
+          <rect x="150" y="262" width="40" height="228" fill="url(#g-marble)"/>
+          <rect x="410" y="262" width="40" height="228" fill="url(#g-marble)"/>
+          <g stroke="#a39d90" stroke-width="1.2">
+            <line x1="158" y1="266" x2="158" y2="486"/><line x1="166" y1="266" x2="166" y2="486"/><line x1="174" y1="266" x2="174" y2="486"/><line x1="182" y1="266" x2="182" y2="486"/>
+            <line x1="418" y1="266" x2="418" y2="486"/><line x1="426" y1="266" x2="426" y2="486"/><line x1="434" y1="266" x2="434" y2="486"/><line x1="442" y1="266" x2="442" y2="486"/>
+          </g>
+          <rect x="142" y="250" width="56" height="14" fill="url(#g-marble-v)" stroke="#8d877a"/>
+          <rect x="402" y="250" width="56" height="14" fill="url(#g-marble-v)" stroke="#8d877a"/>
+          <rect x="142" y="488" width="56" height="14" fill="url(#g-marble-v)" stroke="#8d877a"/>
+          <rect x="402" y="488" width="56" height="14" fill="url(#g-marble-v)" stroke="#8d877a"/>
+          <!-- arch -->
+          <path d="M140,250 L140,240 A160,160 0 0 1 460,240 L460,250 L420,250 A120,120 0 0 0 180,250 Z" fill="url(#g-marble-v)" stroke="#8d877a" stroke-width="1.2"/>
+          <path d="M150,240 A150,150 0 0 1 450,240" fill="none" stroke="#c9c3b6" stroke-width="1.5"/>
+          <path d="M286,78 L314,78 L310,122 L290,122 Z" fill="url(#g-gold)" stroke="#7a4f10"/>
+          <!-- steps -->
+          <rect x="110" y="502" width="380" height="14" fill="url(#g-marble-v)" stroke="#8d877a"/>
+          <rect x="92" y="516" width="416" height="16" fill="url(#g-marble-v)" stroke="#8d877a"/>
+        </g>
+
+        <!-- desk globe -->
+        <g>
+          <path d="M300,428 L300,470" stroke="url(#g-gold-h)" stroke-width="10"/>
+          <ellipse cx="300" cy="482" rx="52" ry="12" fill="url(#g-gold)" stroke="#7a4f10"/>
+          <circle cx="300" cy="322" r="96" fill="url(#g-ocean)"/>
+          <clipPath id="globeclip"><circle cx="300" cy="322" r="96"/></clipPath>
+          <g clip-path="url(#globeclip)">
+            <path d="M228,262 c22,-18 58,-14 66,8 c8,20 -14,26 -8,46 c6,22 -10,40 -30,34 c-20,-6 -10,-34 -28,-44 c-14,-8 -16,-30 0,-44z" fill="url(#g-land)"/>
+            <path d="M318,250 c26,-6 54,6 60,26 c-12,6 -30,-2 -36,10 c-6,14 14,22 8,38 c-8,18 -34,16 -38,-4 c-4,-22 -16,-30 -10,-48 c3,-10 8,-18 16,-22z" fill="url(#g-land)"/>
+            <path d="M330,350 c18,-8 40,4 38,24 c-2,18 -24,30 -38,18 c-12,-10 -14,-34 0,-42z" fill="url(#g-land)"/>
+            <g fill="none" stroke="#ffffff" stroke-opacity=".45" stroke-width="1">
+              <ellipse cx="300" cy="322" rx="62" ry="96"/><ellipse cx="300" cy="322" rx="28" ry="96"/><line x1="300" y1="226" x2="300" y2="418"/>
+              <line x1="204" y1="322" x2="396" y2="322"/><path d="M212,280 Q300,296 388,280"/><path d="M212,364 Q300,380 388,364"/>
+            </g>
+          </g>
+          <circle cx="300" cy="322" r="96" fill="url(#g-shine)"/>
+          <path d="M300,214 A108,108 0 0 1 300,430" fill="none" stroke="url(#g-gold-h)" stroke-width="8"/>
+          <circle cx="300" cy="214" r="5" fill="url(#g-coin)"/>
+        </g>
+
+        <!-- gold ribbon -->
+        <path id="ribbonpath" d="M34,392 C150,316 210,486 330,430 S500,250 574,196" fill="none"/>
+        <use href="#ribbonpath" stroke="#7a4f10" stroke-width="32" stroke-linecap="butt" fill="none"/>
+        <use href="#ribbonpath" stroke="url(#g-gold)" stroke-width="28" fill="none"/>
+        <text font-family="Cinzel, serif" font-weight="700" font-size="14" fill="#10204f" dy="5">
+          <textPath href="#ribbonpath" startOffset="50%" text-anchor="middle">✦ MAASTRICHT ✦ MMXXVII ✦</textPath>
+        </text>
+
+        <!-- floating goods -->
+        <g transform="translate(92,150)"><g class="float" filter="url(#soft)">
+          <path d="M0,-22 c-14,-10 -36,-2 -36,20 c0,22 18,38 36,32 c18,6 36,-10 36,-32 c0,-22 -22,-30 -36,-20z" fill="url(#g-apple)"/>
+          <path d="M0,-22 c0,-8 2,-14 6,-18" stroke="#5a3a10" stroke-width="3" fill="none"/>
+          <path d="M4,-30 c8,-12 22,-12 26,-8 c-6,8 -18,12 -26,8z" fill="#4f9a3a"/>
+          <ellipse cx="-16" cy="-6" rx="7" ry="11" fill="#fff" opacity=".5" transform="rotate(20 -16 -6)"/>
+        </g></g>
+
+        <g transform="translate(70,300)"><g class="float" filter="url(#soft)">
+          <rect x="-26" y="-6" width="52" height="38" fill="#f6efe0" stroke="#8d877a"/>
+          <path d="M-34,-4 L0,-34 L34,-4 Z" fill="url(#g-roof)" stroke="#5a1410"/>
+          <rect x="-6" y="12" width="13" height="20" fill="url(#g-blue)"/>
+          <rect x="-20" y="4" width="10" height="10" fill="#bfe1ff" stroke="#8d877a"/><rect x="12" y="4" width="10" height="10" fill="#bfe1ff" stroke="#8d877a"/>
+        </g></g>
+
+        <g transform="translate(520,80)"><g class="float" filter="url(#soft)">
+          <circle cx="0" cy="0" r="30" fill="#fff6a8" opacity=".6" filter="url(#glow)"/>
+          <circle cx="0" cy="-2" r="22" fill="url(#g-bulb)" stroke="#c99a2a"/>
+          <rect x="-10" y="16" width="20" height="16" rx="2" fill="url(#g-marble)" stroke="#6b665c"/>
+          <path d="M-10,21 h20 M-10,26 h20" stroke="#6b665c"/>
+          <path d="M-6,0 q6,-10 12,0" stroke="#c99a2a" stroke-width="1.5" fill="none"/>
+        </g></g>
+
+        <g transform="translate(528,330)"><g class="float" filter="url(#soft)">
+          <circle r="28" fill="url(#g-coin)" stroke="#7a4f10" stroke-width="1.5"/>
+          <circle r="21" fill="none" stroke="#7a4f10" stroke-width="1" stroke-dasharray="2 2"/>
+          <text y="10" text-anchor="middle" font-family="Cinzel, serif" font-weight="900" font-size="28" fill="#7a4f10">€</text>
+        </g></g>
+
+        <g transform="translate(470,470)"><g class="float" filter="url(#soft)">
+          <path d="M-44,8 C-48,-18 -20,-30 0,-30 C20,-30 48,-18 44,8 C40,18 -40,18 -44,8 Z" fill="url(#g-bread)" stroke="#6a3a10"/>
+          <path d="M-22,-18 l-8,16 M-4,-24 l-8,18 M14,-22 l-8,18 M30,-14 l-6,12" stroke="#f7d9a0" stroke-width="3" stroke-linecap="round"/>
+        </g></g>
+
+        <g transform="translate(120,60)"><g class="float" filter="url(#soft)">
+          <ellipse rx="44" ry="10" fill="none" stroke="#e8c27a" stroke-width="4" transform="rotate(-18)"/>
+          <circle r="22" fill="url(#g-planet)"/>
+          <path d="M-42,4 A44,10 -18 0 0 40,-24" fill="none" stroke="#e8c27a" stroke-width="4" transform="rotate(0)"/>
+          <circle r="22" fill="url(#g-shine)"/>
+        </g></g>
+      </svg>
+    </div>
+  </div>
+  <div class="floor" aria-hidden="true"></div>
+</section>
+
+<!-- ===== About ===== -->
+<section class="section section--marble" id="about">
+  <div class="container">
+    <header class="section__head">
+      <span class="tab"><i>1</i>About the Conference</span>
+      <h2 class="section__title ink">Where Inequality Becomes Visible</h2>
+      <svg class="ribbon" aria-hidden="true"><use href="#ribbon"/></svg>
+    </header>
+
+    <article class="panel">
+      <div class="panel__bar">Article · Consuming (In)Equality</div>
+      <div class="panel__body prose">
+        <p>Consumption is a domain in which inequalities become visible, material and lived. What people are able to eat, wear, inhabit, access, repair or share depends on the distribution of economic resources, time, knowledge, infrastructures and social recognition. Consumption can signal and reproduce privilege and exclusion, but it can also become a terrain of solidarity, collective experimentation and demands for greater equality.</p>
+        <p>The 2027 Midterm Conference of the European Sociological Association's Research Network 05, <em>Sociology of Consumption</em>, invites participants to explore how inequalities are produced, experienced, justified and contested through consumption. It opens with an Early Career Workshop on Monday 18 October, followed by three days of papers, roundtables and working sessions from 19 to 21 October 2027, hosted by the Maastricht Sustainability Institute at Maastricht University's School of Business and Economics.</p>
+        <p>Addressing these questions requires attention not only to differences in what people consume, but also to the conditions that shape and justify them. We propose three entry points.</p>
+      </div>
+    </article>
+
+    <aside class="did-you-know">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="26" r="20" fill="url(#g-bulb)" stroke="#c99a2a"/><rect x="23" y="44" width="18" height="14" rx="2" fill="url(#g-marble)" stroke="#6b665c"/><path d="M23,49 h18 M23,53 h18" stroke="#6b665c"/><circle cx="32" cy="26" r="20" fill="url(#g-shine)"/></svg>
+      <div><b>Key question</b><p>Under what conditions does consumption reproduce privilege, vulnerability and exclusion, and how might it contribute to more democratic, sustainable and equitable forms of social organisation?</p></div>
+    </aside>
+
+    <div class="exhibits">
+      <article class="exhibit">
+        <div class="exhibit__art">
+          <svg viewBox="0 0 300 170" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <rect width="300" height="170" filter="url(#clouds2)"/>
+            <rect x="140" y="56" width="20" height="96" fill="url(#g-gold-h)"/>
+            <ellipse cx="150" cy="156" rx="46" ry="9" fill="url(#g-gold)" stroke="#7a4f10"/>
+            <rect x="70" y="48" width="160" height="7" rx="3" fill="url(#g-gold)" stroke="#7a4f10" transform="rotate(-6 150 52)"/>
+            <circle cx="150" cy="44" r="9" fill="url(#g-coin)" stroke="#7a4f10"/>
+            <g stroke="#7a4f10" stroke-width="1.2"><line x1="78" y1="58" x2="62" y2="104"/><line x1="78" y1="58" x2="96" y2="104"/><line x1="222" y1="42" x2="206" y2="88"/><line x1="222" y1="42" x2="240" y2="88"/></g>
+            <path d="M54,104 h50 a25,10 0 0 1 -50,0z" fill="url(#g-gold)" stroke="#7a4f10"/>
+            <path d="M198,88 h50 a25,10 0 0 1 -50,0z" fill="url(#g-gold)" stroke="#7a4f10"/>
+            <g transform="translate(79,92) scale(.45)"><path d="M0,-22 c-14,-10 -36,-2 -36,20 c0,22 18,38 36,32 c18,6 36,-10 36,-32 c0,-22 -22,-30 -36,-20z" fill="url(#g-apple)"/><path d="M4,-30 c8,-12 22,-12 26,-8 c-6,8 -18,12 -26,8z" fill="#4f9a3a"/></g>
+            <g transform="translate(223,78)"><circle r="12" fill="url(#g-coin)" stroke="#7a4f10"/><text y="5" text-anchor="middle" font-family="Cinzel" font-weight="900" font-size="13" fill="#7a4f10">€</text></g>
+          </svg>
+        </div>
+        <div class="exhibit__body">
+          <span class="exhibit__num">Entry point 1</span>
+          <h3>Moral Classifications</h3>
+          <p class="exhibit__q">How consumption is judged</p>
+          <p>The judgements through which consumption is classed as necessary or excessive, responsible or irresponsible. Who defines “good” consumption, whose practices gain legitimacy, and how is responsibility shared among individuals, households, businesses and public institutions?</p>
+        </div>
+      </article>
+
+      <article class="exhibit">
+        <div class="exhibit__art">
+          <svg viewBox="0 0 300 170" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <rect width="300" height="170" filter="url(#clouds2)"/>
+            <path d="M0,150 Q150,128 300,150 V170 H0Z" fill="url(#g-hill)"/>
+            <path d="M92,72 L150,40 L208,72 Z" fill="url(#g-marble-v)" stroke="#8d877a"/>
+            <rect x="96" y="72" width="108" height="8" fill="url(#g-marble-v)" stroke="#8d877a"/>
+            <g fill="url(#g-marble)"><rect x="102" y="80" width="12" height="58"/><rect x="126" y="80" width="12" height="58"/><rect x="162" y="80" width="12" height="58"/><rect x="186" y="80" width="12" height="58"/></g>
+            <rect x="90" y="138" width="120" height="8" fill="url(#g-marble-v)" stroke="#8d877a"/>
+            <g transform="translate(46,70)" filter="url(#soft)"><path d="M-22,4 C-24,-9 -10,-15 0,-15 C10,-15 24,-9 22,4 C20,9 -20,9 -22,4 Z" fill="url(#g-bread)"/></g>
+            <g transform="translate(254,56)" filter="url(#soft)"><circle r="13" fill="url(#g-bulb)" stroke="#c99a2a"/><rect x="-6" y="11" width="12" height="9" fill="url(#g-marble)"/></g>
+            <g transform="translate(256,118)" filter="url(#soft)"><path d="M0,-16 C8,-4 12,2 12,8 a12,12 0 0 1 -24,0 c0,-6 4,-12 12,-24z" fill="url(#g-ocean)"/></g>
+            <g transform="translate(44,124)" filter="url(#soft)"><rect x="-14" y="-4" width="28" height="18" fill="#f6efe0" stroke="#8d877a"/><path d="M-19,-3 L0,-19 L19,-3Z" fill="url(#g-roof)"/></g>
+          </svg>
+        </div>
+        <div class="exhibit__body">
+          <span class="exhibit__num">Entry point 2</span>
+          <h3>Provisioning Systems</h3>
+          <p class="exhibit__q">How access is organised</p>
+          <p>The institutions, infrastructures, policies, material stocks and labour that make food, housing, energy, mobility and care available, from markets and the state to mutual aid, foraging, gifting and other informal practices that are unevenly accessible and differently valued.</p>
+        </div>
+      </article>
+
+      <article class="exhibit">
+        <div class="exhibit__art">
+          <svg viewBox="0 0 300 170" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <rect width="300" height="170" filter="url(#clouds2)"/>
+            <circle cx="150" cy="128" r="54" fill="#fff3b0" opacity=".8" filter="url(#glow)"/>
+            <circle cx="150" cy="130" r="36" fill="url(#g-coin)"/>
+            <path d="M0,136 Q80,108 160,132 T300,124 V170 H0Z" fill="url(#g-hill)"/>
+            <g transform="translate(82,118)">
+              <path d="M-3,0 L-1.5,-70 L1.5,-70 L3,0Z" fill="url(#g-marble)"/>
+              <g transform="translate(0,-70)"><circle r="3.5" fill="#fff" stroke="#8d877a"/>
+                <path d="M0,0 L-3,-34 L3,-34Z" fill="#fff" stroke="#8d877a" stroke-width=".6"/>
+                <path d="M0,0 L-3,-34 L3,-34Z" fill="#fff" stroke="#8d877a" stroke-width=".6" transform="rotate(120)"/>
+                <path d="M0,0 L-3,-34 L3,-34Z" fill="#fff" stroke="#8d877a" stroke-width=".6" transform="rotate(240)"/></g>
+            </g>
+            <g transform="translate(226,120) scale(.75)">
+              <path d="M-3,0 L-1.5,-70 L1.5,-70 L3,0Z" fill="url(#g-marble)"/>
+              <g transform="translate(0,-70) rotate(40)"><circle r="3.5" fill="#fff" stroke="#8d877a"/>
+                <path d="M0,0 L-3,-34 L3,-34Z" fill="#fff" stroke="#8d877a" stroke-width=".6"/>
+                <path d="M0,0 L-3,-34 L3,-34Z" fill="#fff" stroke="#8d877a" stroke-width=".6" transform="rotate(120)"/>
+                <path d="M0,0 L-3,-34 L3,-34Z" fill="#fff" stroke="#8d877a" stroke-width=".6" transform="rotate(240)"/></g>
+            </g>
+            <g filter="url(#soft)"><circle cx="150" cy="60" r="22" fill="url(#g-ocean)"/><path d="M136,52 c6,-6 14,-4 16,2 c2,6 -4,8 -2,14 c-6,2 -14,-4 -14,-16z M156,62 c4,-2 9,0 9,5 c-3,4 -8,4 -9,-5z" fill="url(#g-land)"/><circle cx="150" cy="60" r="22" fill="url(#g-shine)"/></g>
+          </svg>
+        </div>
+        <div class="exhibit__body">
+          <span class="exhibit__num">Entry point 3</span>
+          <h3>Just Transitions</h3>
+          <p class="exhibit__q">How sustainable futures are pursued or denied</p>
+          <p>Ecological transitions are not automatically fair. A consumption lens asks who benefits, who bears the costs and who shapes change, and what welfare institutions, public infrastructures and collective provisioning can do to make transitions just.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Call for papers ===== -->
+<section class="section sky" id="call">
+  <svg class="sky__clouds" preserveAspectRatio="none" aria-hidden="true"><rect width="100%" height="100%" filter="url(#clouds)"/></svg>
+  <div class="container">
+    <header class="section__head">
+      <span class="tab"><i>2</i>Call for Papers</span>
+      <h2 class="section__title gold">Submit Your Contribution</h2>
+      <svg class="ribbon" aria-hidden="true"><use href="#ribbon"/></svg>
+    </header>
+
+    <article class="panel">
+      <div class="panel__bar">Index of Topics</div>
+      <div class="panel__body">
+        <div class="prose" style="max-width:none">
+          <p>We invite proposals for individual papers, paper sessions, lightning talks, roundtables and working sessions. Contributions may draw on any approach: qualitative, quantitative, computational, historical, participatory, mixed-methods or theoretical. While inequality provides the theme, we warmly welcome contributions from across the full theoretical, methodological and empirical range of the sociology of consumption, and we particularly encourage work from regions and intellectual traditions underrepresented in European consumption research, including Central and Eastern Europe and the Global South.</p>
+          <p>The call seeks closer dialogue between the sociology of consumption and economic, cultural and environmental sociology, the sociology of labour, social policy and political economy. Possible themes include, but are not limited to:</p>
+        </div>
+        <ul class="index-list">
+          <li>Inequalities, privilege and exclusion in consumption</li>
+          <li>Moralities, valuation and the politics of “good” consumption</li>
+          <li>Infrastructures, welfare and systems of provisioning: food, housing, energy, mobility and care</li>
+          <li>Collective, informal and non-market provisioning: mutual aid, charity, foraging, gifting, commoning</li>
+          <li>Sustainable consumption, its critiques and just transitions</li>
+          <li>Interspecies justice in consumption and provisioning systems</li>
+          <li>Political consumerism, citizenship and social movements</li>
+          <li>Markets, institutions and the political economy of consumption</li>
+          <li>Labour, livelihoods and global supply chains</li>
+          <li>Consumer empowerment and vulnerability</li>
+          <li>Class, capitals and cultural stratification</li>
+          <li>Distinction, identity and taste</li>
+          <li>Gender, race, disability and intersecting inequalities</li>
+          <li>Generations and the life course</li>
+          <li>Changing lifestyles and consumption</li>
+          <li>Geographies of consumer culture</li>
+          <li>Consumption in Central and Eastern Europe and the Global South</li>
+          <li>Digital consumption, platformisation and datafication</li>
+          <li>Materiality and immateriality in consumption</li>
+          <li>Bodies, emotions and the senses in consumption</li>
+          <li>Compulsive and excessive consumption</li>
+          <li>Leisure, tourism and cultural consumption</li>
+          <li>Neglected and emerging topics, theories and methods</li>
+        </ul>
+      </div>
+    </article>
+
+    <div class="formats">
+      <div class="format"><h4>Individual paper</h4><span class="dur">15 + 5 min</span><p>Presentation and Q&amp;A. Papers not submitted with a session are grouped thematically.</p></div>
+      <div class="format"><h4>Paper session</h4><span class="dur">90 min</span><p>Up to four papers plus discussion. The organiser submits a session abstract; each presenter submits their own, naming the session.</p></div>
+      <div class="format"><h4>Lightning talk</h4><span class="dur">Up to 5 min</span><p>A concept, early-stage research or a teaching method, grouped into moderated sessions.</p></div>
+      <div class="format"><h4>Roundtable</h4><span class="dur">90 min</span><p>Discussion-based panel in a format chosen by the organisers, e.g. moderated panel or up to five short interventions.</p></div>
+      <div class="format"><h4>Working session</h4><span class="dur">90 min</span><p>Develop shared ideas into a plan of action: teaching, internationalisation, large projects, joint publications.</p></div>
+    </div>
+
+    <article class="panel">
+      <div class="panel__bar">Guidelines for Abstracts</div>
+      <div class="panel__body guidelines">
+        <div>
+          <h3>What to submit</h3>
+          <ul>
+            <li>In English, submitted via <strong>Aanmelder</strong><!-- TODO: add Aanmelder submission link --></li>
+            <li>A title, a main text of no more than <strong>250 words</strong>, and three to five keywords</li>
+            <li>Names, affiliations and email addresses of all authors</li>
+            <li>Each participant may present no more than one paper as presenting author</li>
+            <li>Session, roundtable and working-session proposals: a session abstract of up to 250 words on aims and format, with organisers and confirmed participants</li>
+          </ul>
+        </div>
+        <div>
+          <h3>How abstracts are evaluated</h3>
+          <ul>
+            <li>The sociological background of the research</li>
+            <li>Research questions and methodology</li>
+            <li>Key findings, or expected results</li>
+            <li>Implications and contributions</li>
+          </ul>
+          <p style="margin-top:20px"><a class="btn" href="#">Submit an Abstract ▸</a><!-- TODO: Aanmelder link --></p>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ===== Timeline ===== -->
+<section class="section section--navy" id="dates">
+  <div class="container">
+    <header class="section__head">
+      <span class="tab"><i>3</i>Timeline</span>
+      <h2 class="section__title gold">Key Dates</h2>
+      <svg class="ribbon" aria-hidden="true"><use href="#ribbon"/></svg>
+    </header>
+    <ol class="timeline">
+      <li class="key"><div class="card"><time datetime="2027-03-26">26 March 2027</time><h4>Abstract submission deadline</h4><p>Papers, sessions, lightning talks, roundtables and working sessions</p></div></li>
+      <li><div class="card"><time datetime="2027-05-28">28 May 2027</time><h4>Notification of acceptance</h4><p>Letters of invitation for visa purposes available from acceptance</p></div></li>
+      <li class="key"><div class="card"><time datetime="2027-07-02">2 July 2027</time><h4>Registration &amp; payment deadline</h4><p>Presenters must register and pay to be included in the programme</p></div></li>
+      <li><div class="card"><time datetime="2027-08-20">20 August 2027</time><h4>Preliminary programme online</h4></div></li>
+      <li><div class="card"><time datetime="2027-09-17">17 September 2027</time><h4>Final programme online</h4></div></li>
+      <li class="key"><div class="card"><time datetime="2027-10-18">18 October 2027</time><h4>Early Career Workshop</h4></div></li>
+      <li class="key"><div class="card"><time datetime="2027-10-19">19–21 October 2027</time><h4>Main conference</h4></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== Programme ===== -->
+<section class="section section--marble" id="programme">
+  <div class="container">
+    <header class="section__head">
+      <span class="tab"><i>4</i>Programme</span>
+      <h2 class="section__title ink">Four Days in Maastricht</h2>
+      <svg class="ribbon" aria-hidden="true"><use href="#ribbon"/></svg>
+    </header>
+
+    <div class="days">
+      <div class="panel day"><span class="day__date">18<small>Mon · Oct</small></span><h3>Early Career Workshop</h3><p>For PhD candidates and early career researchers.</p></div>
+      <div class="panel day"><span class="day__date">19<small>Tue · Oct</small></span><h3>Main Conference I</h3><p>Opening, keynotes and parallel sessions.</p></div>
+      <div class="panel day"><span class="day__date">20<small>Wed · Oct</small></span><h3>Main Conference II</h3><p>Paper sessions, lightning talks, roundtables and working sessions.</p></div>
+      <div class="panel day"><span class="day__date">21<small>Thu · Oct</small></span><h3>Main Conference III</h3><p>Paper sessions and closing.</p></div>
+    </div>
+    <p class="note">The preliminary programme will appear here on 20 August 2027 and the final programme on 17 September 2027.</p>
+
+    <div class="ecw">
+      <svg viewBox="0 0 120 120" aria-hidden="true">
+        <circle cx="60" cy="60" r="56" fill="url(#g-ocean)" opacity=".18"/>
+        <path d="M60,74 L24,84 L24,64 Q60,52 96,64 L96,84 Z" fill="#1b2f6e"/>
+        <path d="M60,30 L112,50 L60,70 L8,50 Z" fill="url(#g-blue)" stroke="#0b1740"/>
+        <path d="M60,50 L96,58 L96,86" fill="none" stroke="url(#g-gold-h)" stroke-width="3"/>
+        <circle cx="96" cy="90" r="6" fill="url(#g-coin)"/>
+        <circle cx="60" cy="50" r="4" fill="url(#g-coin)"/>
+      </svg>
+      <div>
+        <h3>Early Career Workshop · Monday 18 October</h3>
+        <p>Led by the RN05 board and open to PhD candidates and early career researchers, with sessions on funding opportunities, publication strategies and navigating the academic job market. Indicate your interest when submitting your abstract on Aanmelder; further information will be sent in due course.</p>
+      </div>
+    </div>
+
+    <header class="section__head" style="margin:72px 0 24px">
+      <h2 class="section__title ink" style="font-size:clamp(26px,1.2rem + 1.6vw,40px)">Keynotes &amp; Roundtables</h2>
+    </header>
+    <div class="speakers">
+      <div class="speaker"><svg aria-hidden="true"><use href="#bust"/></svg><h3>To be announced</h3><p>Keynote speaker</p></div>
+      <div class="speaker"><svg aria-hidden="true"><use href="#bust"/></svg><h3>To be announced</h3><p>Keynote speaker</p></div>
+      <div class="speaker"><svg aria-hidden="true"><use href="#bust"/></svg><h3>To be announced</h3><p>Roundtable</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Fees ===== -->
+<section class="section sky" id="registration">
+  <svg class="sky__clouds" preserveAspectRatio="none" aria-hidden="true"><rect width="100%" height="100%" filter="url(#clouds)"/></svg>
+  <div class="container">
+    <header class="section__head">
+      <span class="tab"><i>5</i>Registration</span>
+      <h2 class="section__title gold">Fees</h2>
+      <svg class="ribbon" aria-hidden="true"><use href="#ribbon"/></svg>
+    </header>
+
+    <div class="fees">
+      <div class="panel fee"><div class="fee__price"><b>€150</b></div><h3>RN05 members</h3><p>Members of RN05 Sociology of Consumption with active ESA membership</p></div>
+      <div class="panel fee"><div class="fee__price"><b>€260</b></div><h3>Non-members</h3><p>All other participants</p></div>
+      <div class="panel fee"><div class="fee__price"><b>€90</b></div><h3>Reduced fee</h3><p>PhD candidates; participants not currently employed or whose institution does not cover their costs; participants based in ESA “Band 2” countries</p></div>
+      <div class="panel fee fee--featured"><div class="fee__price"><b>Free</b></div><h3>Maastricht SBE</h3><p>Research master students and PhD candidates of Maastricht University School of Business and Economics</p></div>
+    </div>
+
+    <article class="panel" style="margin-top:28px">
+      <div class="panel__bar">How to Register</div>
+      <div class="panel__body prose" style="max-width:none">
+        <p>Registration and payment take place via Aanmelder. Presenters must register and pay by <strong>2 July 2027</strong> to be included in the programme. The fee includes coffee breaks on all conference days; lunches, the conference dinner and the social programme can be booked separately, and details will follow.</p>
+        <p style="margin:0">To qualify for the member rate, please check that your RN05 membership is active on the <a href="https://www.europeansociology.org/" target="_blank" rel="noopener">ESA website</a>, and renew it or join if needed. Participants applying for the reduced fee are asked to send proof of their status (e.g. a signed statement from their supervisor or institution) when registering.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ===== Venue ===== -->
+<section class="section section--marble" id="venue">
+  <div class="container">
+    <header class="section__head">
+      <span class="tab"><i>6</i>Venue</span>
+      <h2 class="section__title ink">The Host Institution</h2>
+      <svg class="ribbon" aria-hidden="true"><use href="#ribbon"/></svg>
+    </header>
+    <div class="venue">
+      <article class="panel">
+        <div class="panel__bar">Maastricht University</div>
+        <div class="panel__body">
+          <h3>School of Business and Economics</h3>
+          <address>Tongersestraat 53<br>6211 LM Maastricht, the Netherlands</address>
+          <p>The conference is hosted by the <strong>Maastricht Sustainability Institute (MSI)</strong> at the <strong>School of Business and Economics (SBE)</strong>, Maastricht University.</p>
+          <p>SBE is an international school whose expertise spans economics, international business, management, public policy, governance and sustainability. It holds the “Triple Crown” accreditation (AACSB, AMBA and EQUIS) and was rated a Level 4 “Transforming School” in the 2026 Positive Impact Rating.</p>
+          <p style="margin:0">MSI is Maastricht University's scientific institute for sustainable development, combining interdisciplinary and transdisciplinary approaches at the interface of science, policy and society. Its work on food systems, provisioning and sustainability transitions connects closely with this conference's theme.</p>
+        </div>
+      </article>
+      <div class="panel map">
+        <iframe title="Map: School of Business and Economics, Maastricht" loading="lazy"
+          src="https://www.google.com/maps?q=Tongersestraat+53,+6211+LM+Maastricht&amp;output=embed"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Organisers ===== -->
+<section class="section sky" id="organisers">
+  <svg class="sky__clouds" preserveAspectRatio="none" aria-hidden="true"><rect width="100%" height="100%" filter="url(#clouds)"/></svg>
+  <div class="container">
+    <header class="section__head">
+      <span class="tab"><i>7</i>Organisers</span>
+      <h2 class="section__title gold">Who We Are</h2>
+      <svg class="ribbon" aria-hidden="true"><use href="#ribbon"/></svg>
+    </header>
+    <div class="committees">
+      <article class="panel committee">
+        <div class="panel__bar">Local Organising Committee</div>
+        <div class="panel__body"><ul>
+          <li>Filippo Oncini</li><li>Clarence Bluntz</li><li>Joana Wensing</li><li>Christian Scholl</li>
+          <li>Louise Longton</li><li>Jacob Moody</li><li>Giuliana Gentile</li><li>Alejandro Ciordia</li>
+        </ul></div>
+      </article>
+      <article class="panel committee">
+        <div class="panel__bar">RN05 Organising Committee</div>
+        <div class="panel__body"><ul>
+          <li>Francesca Forno</li><li>Senja Laakso</li><li>Ondřej Špaček</li><li>Manisha Anantharaman</li>
+          <li>Ewa Kopczyńska</li><li>Maria Giovanna Onorati</li><li>Jonathan Beacham</li>
+        </ul></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="section section--marble" id="faq">
+  <div class="container">
+    <header class="section__head">
+      <span class="tab"><i>8</i>Questions &amp; Answers</span>
+      <h2 class="section__title ink">Frequently Asked</h2>
+      <svg class="ribbon" aria-hidden="true"><use href="#ribbon"/></svg>
+    </header>
+    <div class="faq">
+      <details><summary>How many papers can I present?</summary><p>Each participant may present no more than one paper as presenting author.</p></details>
+      <details><summary>Can I get a letter of invitation for a visa?</summary><p>Yes. Letters of invitation for visa purposes can be provided upon acceptance (from 28 May 2027).</p></details>
+      <details><summary>Who qualifies for the reduced fee?</summary><p>PhD candidates, participants who are not currently employed or whose institution does not cover their costs, and participants based in ESA “Band 2” countries (see the ESA membership page). Please send proof of status when registering.</p></details>
+      <details><summary>What does the fee include?</summary><p>Coffee breaks on all conference days. Lunches, the conference dinner and the social programme can be booked separately; details will follow.</p></details>
+      <details><summary>How do I join the Early Career Workshop?</summary><p>Indicate your interest when submitting your abstract on Aanmelder. Further information will be sent in due course.</p></details>
+      <details><summary>Where should I stay?</summary><p>Recommended hotels and travel information will be published here ahead of registration.</p></details>
+      <details><summary>Whom do I contact?</summary><p>Write to the local organising committee at <a href="mailto:">[conference email]</a>.<!-- TODO: conference email --></p></details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__title gold">Consuming (In)Equality</div>
+  <p>ESA RN05 Sociology of Consumption · Midterm Conference · Maastricht, 18–21 October 2027</p>
+  <p>Hosted by the Maastricht Sustainability Institute, School of Business and Economics, Maastricht University · <a href="https://www.europeansociology.org/" target="_blank" rel="noopener">European Sociological Association</a></p>
+  <p class="footer__cd">Edition 2027 · Disc 1 of 1</p>
+</footer>
+
+<script>
+  const t = document.querySelector('.nav__toggle'), l = document.getElementById('nav-links');
+  t.addEventListener('click', () => { const o = l.classList.toggle('is-open'); t.setAttribute('aria-expanded', o); });
+  l.addEventListener('click', e => { if (e.target.tagName === 'A') { l.classList.remove('is-open'); t.setAttribute('aria-expanded', false); } });
+</script>
+</body>
+</html>
