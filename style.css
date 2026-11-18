@@ -297,7 +297,7 @@ a:hover { background: var(--yellow); }
 .committee h3 { font-family: var(--mono); font-weight: 700; font-size: 14px; text-transform: uppercase; margin: 0 0 14px; }
 .committee ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
 .committee li { font-family: var(--display); font-weight: 700; font-size: 18px; border: var(--bw) solid; border-radius: 50px; padding: 4px 14px 2px; background: var(--white); }
-.committee li::before { content: "☺ "; color: var(--pink); }
+.committee li span { margin-right: 4px; }
 .committee:nth-child(1) { background: var(--blush); } .committee:nth-child(2) { background: var(--lavender); }
 @media (max-width: 860px) { .committees { grid-template-columns: 1fr; } }
 

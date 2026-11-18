@@ -62,11 +62,27 @@
     </symbol>
 
     <symbol id="c-globe" viewBox="0 0 100 100">
-      <circle cx="50" cy="50" r="44" fill="#a0d4ff" stroke="#000" stroke-width="4"/>
-      <path d="M18,32 c10,-10 26,-8 28,2 c2,10 -8,12 -4,22 c-10,4 -22,-6 -24,-24z" fill="#7aff5e" stroke="#000" stroke-width="3.5"/>
-      <path d="M60,14 c12,0 24,8 26,20 c-8,4 -16,-2 -20,6 c-4,8 -14,2 -12,-10 c1,-8 2,-12 6,-16z" fill="#7aff5e" stroke="#000" stroke-width="3.5"/>
-      <path d="M56,80 c8,-6 20,-4 22,4 c-8,6 -16,6 -22,-4z" fill="#7aff5e" stroke="#000" stroke-width="3.5"/>
-      <use href="#face" x="30" y="52" width="40" height="24"/>
+      <clipPath id="earth-clip"><circle cx="50" cy="50" r="44"/></clipPath>
+      <circle cx="50" cy="50" r="44" fill="#a0d4ff"/>
+      <g clip-path="url(#earth-clip)" fill="#7aff5e" stroke="#000" stroke-width="2.6" stroke-linejoin="round">
+        <!-- Greenland -->
+        <path d="M18,10 C24,6 32,8 33,13 C32,18 26,21 21,19 C17,17 15,13 18,10 Z"/>
+        <!-- South America (eastern edge) -->
+        <path d="M2,50 C8,49 14,52 18,57 C19,63 16,69 12,75 C9,80 5,84 2,86 Z"/>
+        <!-- British Isles -->
+        <path d="M40,24 C42,21 45,22 45,25 C45,29 43,31 41,30 C39,28 39,26 40,24 Z"/>
+        <!-- Europe and Asia, with Scandinavia and Italy -->
+        <path d="M34,40 C33,36 36,33 40,34 C42,32 44,31 46,32 C47,29 50,27 53,27 L56,27 C56,22 58,16 62,12 C66,11 68,13 66,17 C64,20 64,24 66,26 C72,25 80,23 98,22 L98,52 C92,50 86,46 82,43 C78,40 76,38 72,38 C70,38 68,40 66,41 C64,40 62,38 60,38 L58,42 C57,43 56,42 55,40 C54,38 52,38 50,39 C47,40 45,38 43,40 C40,42 36,42 34,40 Z"/>
+        <!-- Africa -->
+        <path d="M30,50 C32,45 40,43 48,44 C54,44 58,46 62,46 C66,48 68,52 72,54 C76,55 78,57 76,60 C72,64 68,66 66,72 C64,80 60,86 56,90 C53,90 52,84 51,78 C50,72 48,68 44,66 C38,64 32,62 30,58 C29,55 29,52 30,50 Z"/>
+        <!-- Madagascar -->
+        <path d="M71,73 C73,71 75,72 75,75 C74,79 72,81 71,79 C70,77 70,75 71,73 Z"/>
+        <!-- Arabia -->
+        <path d="M69,46 C74,44 79,46 81,50 C81,54 79,58 75,58 C72,54 70,50 69,46 Z"/>
+      </g>
+      <path d="M22,26 C30,18 40,14 50,14" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" opacity=".8"/>
+      <circle cx="50" cy="50" r="44" fill="none" stroke="#000" stroke-width="4"/>
+      <use href="#face" x="30" y="50" width="40" height="24"/>
     </symbol>
 
     <symbol id="c-mystery" viewBox="0 0 100 100">
@@ -360,15 +376,15 @@
       <div class="box committee">
         <h3>Local organising committee</h3>
         <ul>
-          <li>Filippo Oncini</li><li>Clarence Bluntz</li><li>Joana Wensing</li><li>Christian Scholl</li>
-          <li>Louise Longton</li><li>Jacob Moody</li><li>Giuliana Gentile</li><li>Alejandro Ciordia</li>
+          <li><span aria-hidden="true">🍝</span> Filippo Oncini</li><li><span aria-hidden="true">🌻</span> Clarence Bluntz</li><li><span aria-hidden="true">📚</span> Joana Wensing</li><li><span aria-hidden="true">🚲</span> Christian Scholl</li>
+          <li><span aria-hidden="true">🌱</span> Louise Longton</li><li><span aria-hidden="true">☕</span> Jacob Moody</li><li><span aria-hidden="true">🍋</span> Giuliana Gentile</li><li><span aria-hidden="true">🧭</span> Alejandro Ciordia</li>
         </ul>
       </div>
       <div class="box committee">
         <h3>RN05 organising committee</h3>
         <ul>
-          <li>Francesca Forno</li><li>Senja Laakso</li><li>Ondřej Špaček</li><li>Manisha Anantharaman</li>
-          <li>Ewa Kopczyńska</li><li>Maria Giovanna Onorati</li><li>Jonathan Beacham</li>
+          <li><span aria-hidden="true">🌍</span> Francesca Forno</li><li><span aria-hidden="true">🌲</span> Senja Laakso</li><li><span aria-hidden="true">🔭</span> Ondřej Špaček</li><li><span aria-hidden="true">🪷</span> Manisha Anantharaman</li>
+          <li><span aria-hidden="true">🍄</span> Ewa Kopczyńska</li><li><span aria-hidden="true">🎨</span> Maria Giovanna Onorati</li><li><span aria-hidden="true">🧪</span> Jonathan Beacham</li>
         </ul>
       </div>
     </div>
