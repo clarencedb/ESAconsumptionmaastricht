@@ -177,3 +177,4 @@ h1, h2, h3, h4 { font-weight: 800; letter-spacing: -.01em; }
 .foot__small { font-size: 14px; opacity: .8; margin: 0 0 32px; }
 .foot__logo { width: 160px; height: auto; }
 @media (max-width: 760px) { .foot__shape { width: 70vw; height: 70vw; right: -30vw; top: -30vw; } }
+.foot__credit { font-size: 12px; opacity: .6; margin: 24px 0 0; }
